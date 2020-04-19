@@ -1,5 +1,7 @@
-# vim-osx-auto-ime
-Switch input source automatically in vim for macos, modified from [vim-osx-ime](https://github.com/hongqn/vim-osx-ime), but use [issw](https://github.com/vovkasm/input-source-switcher) to switch ime.
+# vim-macos-ime
+Switch input source automatically in vim for macos, modified from 
+[vim-osx-ime](https://github.com/hongqn/vim-osx-ime), but use 
+[macism](https://github.com/laishulu/macism/) to switch ime.
 
 ## Features
 * When vim switches to insert mode:
@@ -12,24 +14,19 @@ Switch input source automatically in vim for macos, modified from [vim-osx-ime](
 
 * Switch English IME whenever vim switchs to normal mode.
 
-## How to install
+## Install
+### Install `macism`
+```
+brew tap laishulu/macism
+brew install macism
+```
+### Install `vim-macos-ime`
 - If you use `NeoBundle`, then add the following codes in your `.vimrc`.
 ```
-  NeoBundle 'laishua/vim-macos-ime', {
-   \  'build' : {
-   \    'mac' : './install',
-   \  },
-   \}
+NeoBundle 'laishua/vim-macos-ime'
 ```
-
 - If you use `Dein`, then add the following codes in you `.toml` file
 ```
 [[plugins]]
 repo = 'laishua/vim-macos-ime'
-build = './install'
-```
-
-- Or install with any plugin manager, and manually run the following command in the plugin's directory.
-```
-./install
 ```
