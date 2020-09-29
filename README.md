@@ -23,10 +23,10 @@ brew install macism
 ### Install `vim-macos-ime`
 - If you use `NeoBundle`, then add the following codes in your `.vimrc`.
 ```
-NeoBundle 'laishua/vim-macos-ime'
+NeoBundle 'laishulu/vim-macos-ime'
 ```
 - If you use `Dein`, then add the following codes in you `.toml` file
 ```
 [[plugins]]
-repo = 'laishua/vim-macos-ime'
+repo = 'laishulu/vim-macos-ime'
 ```
