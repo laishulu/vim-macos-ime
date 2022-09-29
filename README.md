@@ -1,6 +1,6 @@
 # vim-macos-ime
-Switch input source automatically in vim for macos, modified from 
-[vim-osx-ime](https://github.com/hongqn/vim-osx-ime), but use 
+Switch input source automatically in vim for macos, modified from
+[vim-osx-ime](https://github.com/hongqn/vim-osx-ime), but use
 [macism](https://github.com/laishulu/macism/) to switch ime.
 
 ## Features
@@ -30,3 +30,21 @@ NeoBundle 'laishulu/vim-macos-ime'
 [[plugins]]
 repo = 'laishulu/vim-macos-ime'
 ```
+
+## Usage
+change default Input Method of Insert Mode
+```vimscript
+" Plugin default Input Method: 搜狗拼音输入法
+let g:macosime_cjk_ime= 'com.sogou.inputmethod.sogou.pinyin'
+
+" 简体拼音
+let g:macosime_cjk_ime= 'com.apple.inputmethod.SCIM.ITABC'
+" 简体双拼
+let g:macosime_cjk_ime= 'com.apple.inputmethod.SCIM.Shuangpin'
+" 简体五笔
+let g:macosime_cjk_ime= 'com.apple.inputmethod.SCIM.WBX'
+" 鼠须管
+let g:macosime_cjk_ime= 'im.rime.inputmethod.Squirrel.Rime'
+```
+
+
