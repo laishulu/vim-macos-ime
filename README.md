@@ -35,16 +35,16 @@ repo = 'laishulu/vim-macos-ime'
 change default Input Method of Insert Mode
 ```vimscript
 " Plugin default Input Method: 搜狗拼音输入法
-let g:macosime_cjk_ime= 'com.sogou.inputmethod.sogou.pinyin'
+let g:macosime_cjk_ime = 'com.sogou.inputmethod.sogou.pinyin'
 
 " 简体拼音
-let g:macosime_cjk_ime= 'com.apple.inputmethod.SCIM.ITABC'
+let g:macosime_cjk_ime = 'com.apple.inputmethod.SCIM.ITABC'
 " 简体双拼
-let g:macosime_cjk_ime= 'com.apple.inputmethod.SCIM.Shuangpin'
+let g:macosime_cjk_ime = 'com.apple.inputmethod.SCIM.Shuangpin'
 " 简体五笔
-let g:macosime_cjk_ime= 'com.apple.inputmethod.SCIM.WBX'
+let g:macosime_cjk_ime = 'com.apple.inputmethod.SCIM.WBX'
 " 鼠须管
-let g:macosime_cjk_ime= 'im.rime.inputmethod.Squirrel.Rime'
+let g:macosime_cjk_ime = 'im.rime.inputmethod.Squirrel.Rime'
 ```
 
 
